@@ -1,0 +1,39 @@
+body {
+    margin: 20px;
+    font-family:Courier New ;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #8d99ae;
+    color: white;
+    border-bottom: 2px solid #415a77;
+    border-radius:10px;
+    text-shadow: 2px 2px #000000;
+    cursor: pointer;
+    }
+    .card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+    h3:hover{
+        background-color: #8da9c4;
+        font-size: 18px;   
+    }
+    p:hover{
+       background-color: #8da9c4;
+        font-size: 18px;   
+    }
+    h4:hover{
+        background-color: #8da9c4;
+        font-size: 18px; 
+    }
